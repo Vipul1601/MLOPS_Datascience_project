@@ -39,12 +39,15 @@ class DataValiadtion:
                             with open(self.config.STATUS_FILE, 'a') as f:
                                 f.write(f"Column '{col}' data type mismatch. Expected: {expected_dtype}, Found: {actual_dtype}.\n")
                     else:
+                        validation_status = True
                         if col == all_cols[0]:
                             with open(self.config.STATUS_FILE, 'w') as f:
                                 f.write(f"Column '{col}' validated successfully.\n")
                         else:
                             with open(self.config.STATUS_FILE, 'a') as f:
                                 f.write(f"Column '{col}' validated successfully.\n")
+            with open(self.config.STATUS_FILE, 'a') as f:
+                f.write(f"Validation: {validation_status}")
 
             return validation_status
 

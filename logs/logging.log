@@ -1,10 +1,10 @@
-[2025-01-22 03:39:09,354: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
-[2025-01-22 03:39:09,356: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:39:09,357: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:39:09,359: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:39:09,360: INFO: common: created directory at: artifacts]
-[2025-01-22 03:39:09,360: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-22 03:39:09,816: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+[2025-01-22 04:33:32,310: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-01-22 04:33:32,313: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 04:33:32,314: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:33:32,316: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 04:33:32,318: INFO: common: created directory at: artifacts]
+[2025-01-22 04:33:32,318: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-22 04:33:33,422: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 23329
 Cache-Control: max-age=300
@@ -17,137 +17,41 @@ X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
 X-GitHub-Request-Id: A784:2A9CC9:64D89:8A611:6790024C
 Accept-Ranges: bytes
-Date: Tue, 21 Jan 2025 22:09:09 GMT
+Date: Tue, 21 Jan 2025 23:03:33 GMT
 Via: 1.1 varnish
-X-Served-By: cache-del21741-DEL
+X-Served-By: cache-del21720-DEL
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Timer: S1737497350.825516,VS0,VE1
+X-Timer: S1737500613.178053,VS0,VE257
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 1fd2c4ef19460d76714bb9398a7e7910a3005ce6
-Expires: Tue, 21 Jan 2025 22:14:09 GMT
-Source-Age: 75
+X-Fastly-Request-ID: 03ce2eeda190b1cc0237123e2a2b901d395f4146
+Expires: Tue, 21 Jan 2025 23:08:33 GMT
+Source-Age: 0
 
 ]
-[2025-01-22 03:39:09,841: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
+[2025-01-22 04:33:33,460: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
 
 x=====================================x]
-[2025-01-22 03:39:09,841: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
-[2025-01-22 03:39:09,845: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:39:09,846: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:39:09,848: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:39:09,849: INFO: common: created directory at: artifacts]
-[2025-01-22 03:39:09,850: INFO: common: created directory at: artifacts/data_validation]
-[2025-01-22 03:39:09,871: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
-
-x==============x]
-[2025-01-22 03:40:32,455: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
-[2025-01-22 03:40:32,457: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:40:32,458: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:40:32,460: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:40:32,461: INFO: common: created directory at: artifacts]
-[2025-01-22 03:40:32,461: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-22 03:40:32,461: INFO: data_ingestion: File already exists]
-[2025-01-22 03:40:32,464: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
-
-x=====================================x]
-[2025-01-22 03:40:32,464: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
-[2025-01-22 03:40:32,467: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:40:32,468: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:40:32,470: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:40:32,470: INFO: common: created directory at: artifacts]
-[2025-01-22 03:40:32,471: INFO: common: created directory at: artifacts/data_validation]
-[2025-01-22 03:40:32,490: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
+[2025-01-22 04:33:33,461: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-01-22 04:33:33,464: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 04:33:33,465: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:33:33,467: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 04:33:33,468: INFO: common: created directory at: artifacts]
+[2025-01-22 04:33:33,469: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-22 04:33:33,490: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
 
 x====================================x]
-[2025-01-22 03:46:09,024: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
-[2025-01-22 03:46:09,027: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:46:09,028: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:46:09,030: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:46:09,031: INFO: common: created directory at: artifacts]
-[2025-01-22 03:46:09,031: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-22 03:46:09,031: INFO: data_ingestion: File already exists]
-[2025-01-22 03:46:09,034: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
-
-x=====================================x]
-[2025-01-22 03:46:09,034: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
-[2025-01-22 03:46:09,037: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 03:46:09,038: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 03:46:09,040: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 03:46:09,041: INFO: common: created directory at: artifacts]
-[2025-01-22 03:46:09,041: INFO: common: created directory at: artifacts/data_validation]
-[2025-01-22 03:46:09,061: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
-
-x====================================x]
-[2025-01-22 04:11:05,942: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:11:05,946: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:11:05,953: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:11:05,956: INFO: common: created directory at: artifacts]
-[2025-01-22 04:11:05,958: INFO: common: created directory at: artifacts/data_transformation]
-[2025-01-22 04:11:06,047: INFO: 2070370313: Splited data into training and test sets]
-[2025-01-22 04:11:06,048: INFO: 2070370313: (1279, 12)]
-[2025-01-22 04:11:06,048: INFO: 2070370313: (320, 12)]
-[2025-01-22 04:20:21,515: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
-[2025-01-22 04:20:21,518: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:21,519: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:21,521: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:21,522: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:21,522: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-22 04:20:21,523: INFO: data_ingestion: File already exists]
-[2025-01-22 04:20:21,526: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
-
-x=====================================x]
-[2025-01-22 04:20:21,526: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
-[2025-01-22 04:20:21,531: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:21,532: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:21,535: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:21,535: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:21,536: INFO: common: created directory at: artifacts/data_validation]
-[2025-01-22 04:20:21,554: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
-
-x====================================x]
-[2025-01-22 04:20:21,555: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
-[2025-01-22 04:20:21,557: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:21,558: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:21,560: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:21,561: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:21,561: INFO: common: created directory at: artifacts/data_transformation]
-[2025-01-22 04:20:21,581: INFO: data_transformation: Splited data into training and test sets]
-[2025-01-22 04:20:21,582: INFO: data_transformation: (1279, 12)]
-[2025-01-22 04:20:21,582: INFO: data_transformation: (320, 12)]
-[2025-01-22 04:20:21,582: INFO: main: >>>>>> stage: Data Transformation Stage completed<<<<<
-
-x====================================x]
-[2025-01-22 04:20:52,527: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
-[2025-01-22 04:20:52,531: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:52,531: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:52,533: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:52,534: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:52,536: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-01-22 04:20:52,536: INFO: data_ingestion: File already exists]
-[2025-01-22 04:20:52,539: INFO: main: >>>>>> stage: Data Ingestion Stage completed<<<<<<<
-
-x=====================================x]
-[2025-01-22 04:20:52,539: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
-[2025-01-22 04:20:52,542: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:52,543: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:52,546: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:52,546: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:52,547: INFO: common: created directory at: artifacts/data_validation]
-[2025-01-22 04:20:52,569: INFO: main: >>>>>> stage: Data Validation Stage completed<<<<<
-
-x====================================x]
-[2025-01-22 04:20:52,569: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
-[2025-01-22 04:20:52,572: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-01-22 04:20:52,573: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-01-22 04:20:52,575: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-01-22 04:20:52,575: INFO: common: created directory at: artifacts]
-[2025-01-22 04:20:52,576: INFO: common: created directory at: artifacts/data_transformation]
-[2025-01-22 04:20:52,596: INFO: data_transformation: Splited data into training and test sets]
-[2025-01-22 04:20:52,597: INFO: data_transformation: (1279, 12)]
-[2025-01-22 04:20:52,597: INFO: data_transformation: (320, 12)]
-[2025-01-22 04:20:52,597: INFO: main: >>>>>> stage: Data Transformation Stage completed<<<<<
+[2025-01-22 04:33:33,491: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-01-22 04:33:33,495: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-22 04:33:33,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:33:33,499: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-22 04:33:33,499: INFO: common: created directory at: artifacts]
+[2025-01-22 04:33:33,500: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-22 04:33:33,521: INFO: data_transformation: Splited data into training and test sets]
+[2025-01-22 04:33:33,522: INFO: data_transformation: (1279, 12)]
+[2025-01-22 04:33:33,522: INFO: data_transformation: (320, 12)]
+[2025-01-22 04:33:33,523: INFO: main: >>>>>> stage: Data Transformation Stage completed<<<<<
 
 x====================================x]
