@@ -3,4 +3,5 @@
 logs/
 artifacts/
 __pycache__/
-logs/logging.log
+logs/
+mlruns/
